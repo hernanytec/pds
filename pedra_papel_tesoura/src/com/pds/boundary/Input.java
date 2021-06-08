@@ -1,19 +1,20 @@
 package com.pds.boundary;
 
+import com.pds.entity.GameOption;
+
 import java.util.Random;
 import java.util.Scanner;
 
 public class Input {
-    public enum GameOption { PEDRA, PAPEL, TESOURA, PARAR, INVALIDA }
 
     public GameOption readGameOption(){
         Scanner scanner = new Scanner(System.in);
         String userInput = scanner.nextLine();
 
-        return this.getGameOption(userInput);
+        return this.convertInput(userInput);
     }
 
-    private GameOption getGameOption(String userInput){
+    private GameOption convertInput(String userInput){
         switch (userInput){
             case "1":
                 return GameOption.PEDRA;
@@ -30,6 +31,6 @@ public class Input {
 
     public GameOption getRandomGameOption(){
         int choice = new Random().nextInt(2) + 1;
-        return this.getGameOption(String.valueOf(choice));
+        return this.convertInput(String.valueOf(choice));
     }
 }

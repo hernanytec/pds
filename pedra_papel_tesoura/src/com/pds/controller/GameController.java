@@ -1,7 +1,7 @@
 package com.pds.controller;
 
 import com.pds.boundary.Input;
-import com.pds.boundary.Input.GameOption;
+import com.pds.entity.GameOption;
 import com.pds.boundary.Output;
 import com.pds.entity.Match;
 import com.pds.entity.ScoreBoard;

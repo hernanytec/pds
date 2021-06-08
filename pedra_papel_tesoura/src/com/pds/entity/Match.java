@@ -1,12 +1,9 @@
 package com.pds.entity;
 
 import com.pds.boundary.Input;
-import com.pds.boundary.Input.GameOption;
-import com.pds.entity.ScoreBoard.GameResult;
-
-import static com.pds.boundary.Input.GameOption.PEDRA;
-import static com.pds.boundary.Input.GameOption.PAPEL;
-import static com.pds.boundary.Input.GameOption.TESOURA;
+import static com.pds.entity.GameOption.PEDRA;
+import static com.pds.entity.GameOption.PAPEL;
+import static com.pds.entity.GameOption.TESOURA;
 
 public class Match {
 

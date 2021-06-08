@@ -1,7 +1,7 @@
 package com.pds.boundary;
 
+import com.pds.entity.GameResult;
 import com.pds.entity.ScoreBoard;
-import com.pds.entity.ScoreBoard.GameResult;
 
 import java.util.ArrayList;
 

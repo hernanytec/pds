@@ -1,10 +1,6 @@
 package com.pds.entity;
 
-import com.pds.boundary.Input.GameOption;
-
 public class ScoreBoard {
-    public enum GameResult {VITORIA, DERROTA, EMPATE}
-
     private final GameOption userOption;
     private final GameOption machineOption;
     private final GameResult result;
